@@ -28,23 +28,41 @@ public class FourLoopGontlet {
 				System.out.println(i + "Is 0dd");
 			}
 		}
-		
-		
-			for (int i = 7; i < 777; i += 7) {
-				System.out.println(i);
-			}
-		
-			for (int i = 0; i < 2; i++) {
-				System.out.println(i);
 
-				
-				for (int j = 0; j < 9; j++) {
-					System.out.println(i);
+		for (int i = 7; i < 777; i += 7) {
+			System.out.println(i);
+		}
 
-				}
+		for (int i = 0; i < 3; i++) {
+
+			for (int j = 0; j < 3; j++) {
+				System.out.print(i);
+				System.out.println(j);
+
 			}
-			
-			
-	}
+		}
+		for (int row = 1; row < 9; row += 3 )  {
+			for (int num = row; num < row + 3;num++) {
+				System.out.print(num);
+				 
+			}
+			System.out.println(); } 
+
+	
+	
+	for (int row = 1; row < 100; row += 10 )  {
+		for (int num = row; num < row + 10;num++) {
+			System.out.print(num);
+			 
+		}
+		System.out.println(); } 
+
+}
+
+	
+	
+	
+	
+	
 
 }
